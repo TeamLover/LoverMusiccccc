@@ -9,9 +9,9 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "20594535"))
 API_HASH = getenv("API_HASH", "40d94b8c167104937b2846efa895bef7")
-BOT_TOKEN = getenv("BOT_TOKEN", "5607218250:AAF5V7dFoSUFof0fjjNQ3PayQvcKXBlI0E0")
+BOT_TOKEN = getenv("BOT_TOKEN", "6223660988:AAFoD6CtDcoxgRaM_xAaqkjjbjOrn5YNj7E")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001899951693"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001583255537"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『sona ✘ ℳ𝓾𝓼𝓲c͢˼』")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1548904516").split()))
@@ -34,7 +34,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SPARTENX-OP/VirusMusicBot",
+    "https://github.com/TeamLover/LoverMusiccccc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQC2FziXGPW_u1HXZTeGWnkHO3qP9W1qg9qZ7sF5YVpjrJRm8PWDRWv7mlDKsrYT08JxeRMEwzkDBsNaiMI5bW291qylE8XuBtCqeoH4QlIAl4PKtGuzMMFfBh3-fkrrZGuDcbt7pjl3HBqDpMu7hAYMtvKzIS4g4lriuxmxrzMZ1qv_ZN-ThsDWCqBZ9ARddIJUvcQXQbAXSruu_MVyJUqgAKPJRF3DJKNlWArgCuLB36NK0AaJ1ET5KwFobBsRJUK1jfuTyaaDINIap2htKT7otziDzk3SyWnvxitM09cTsZlcXlSqZ_VxwCiPLWupbYXo3jfgqRiJHa3cYzxqsNqCAAAAAVuuWxIA")
+STRING1 = getenv("STRING_SESSION", "BQFd1ZoAZ3TezVkB7nVkbUmYnUmiBGwG3adMAxVJxT4ISGbFiiDWZDKQNlqrBIC7pixrpduYiQV4vD6r3l5cFR0xT1UmK10yMPzwH1ro45YUf9nf4wPspjMGtpKMn1DAyjrjWWB9Hbn07Xoh8Ir-t7Q_noF11wqZ7Jch8d_DKe-_vBFqmvO2dxHLwtrqltWwkUVpUfapN735qk_e-I_tDUZ5gWGEowG83AvOTM8QL0yqioGU_z5UWIM1YViPKAgfUbznR83DFZ0JnYPkQX3PjpfCEuBMCiLKMwKzfXG2Ls3NFxpYLotGg8rVM0XrHRSDQjRweR4AhbCVj_K1ugkKYgXW1Ks8CwAAAAHS5JCGAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
